@@ -1,6 +1,7 @@
 body {
     background-color: rgb(43, 42, 42);
     color: wheat;
+    font-size: 1.5em;
 }
 
 div {
@@ -18,19 +19,31 @@ h3 {
 .flexHr {
     display: flex;
     gap: 50px;
+    justify-content: center;
+}
+
+.divDeTexto {
+    margin-top: 20px;
+    text-align: center;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 select, label {
     display: block;
+    text-align: center;
 }
 
 select {
     color: wheat;
     background-color: rgb(73, 71, 71);
-}
-
-button {
-    margin-top: 10px;
+    font-size: 0.7em;
 }
 
 p {

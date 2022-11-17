@@ -10,10 +10,10 @@
 </head>
 <body>
     <form>
-        <div class="flexHr">
+        <div class="flexHr flexVr">
             <div>
-                <label for="">Estado</label>
-                <select name="" id="">
+                <label for="selectEstado">Estado</label>
+                <select name="selectEstado" id="selectEstado">
                     <option value="0">--- Selecione seu estado ---</option>
                     <option value="PR">Paraná</option>
                     <option value="SC">Santa Catarina</option>
@@ -21,15 +21,14 @@
                 </select>
             </div>
             <div>
-                <label for="selectCidades">Cidade</label>
-                <select name="selectCidades" id="selectCidades">
-                    <option value="0">--- Selecione sua cidade</option>
-                    
+                <label for="selectCidade">Cidade</label>
+                <select name="selectCidade" id="selectCidade" disabled>
+                    <option value="0">--- Selecione sua cidade ---</option> 
                 </select>
             </div>
         </div>
+        <div id="exibeCidadeEstado" class="divDeTexto"></div>
     </form>
 
-    <div id="exibeCidadeEstado"></div>
 </body>
 </html>
